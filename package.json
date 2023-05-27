@@ -1,0 +1,28 @@
+{
+  "name": "koa-with-sequelize-recipe",
+  "version": "1.0.0",
+  "description": "A simple demo of a Koa server with Sequelize as ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "jeromehaas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.2",
+    "koa-parser": "^1.0.8",
+    "koa-router": "^12.0.0",
+    "mysql2": "^3.3.2",
+    "pg": "^8.11.0",
+    "prettier": "^2.8.8",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  }
+}
